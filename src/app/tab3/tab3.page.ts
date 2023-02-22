@@ -32,7 +32,9 @@ export class Tab3Page implements OnInit{
 
   }
   enviar(){
-    console.log('Enviado')
+    let nome = this.form.get('nome').value;
+    let endereco = this.form.get('endereco').value;
+    console.log(nome+" "+endereco)
   }
 
 }
