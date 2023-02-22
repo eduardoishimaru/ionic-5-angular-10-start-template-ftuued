@@ -22,6 +22,9 @@
 
     --ion-text-color:white;
     --ion-text-color-rgb:255,255,255;
+    --ion-card-background: linear-gradient(139deg,#831affab 0%,transparent 100%);
+    --ion-item-background: transparent;
+
 }
 .conteudo{
   max-width: 500px;
@@ -33,5 +36,21 @@
   padding-bottom: 0px;
   width: 100%;
   max-width: 400px;
-  
+
+
+
 }
+
+ion-thumbnail{
+  animation: animation-img-item 4s infinite alternate;
+
+}
+@keyframes animation-img-item{
+  0%{
+  transform: translate(0px, 5px) scale(1) rotate(0deg);
+  }
+  100%{
+  transform: translate(0px, -5) scale(0.5) rotate(45deg);
+  }
+}
+
