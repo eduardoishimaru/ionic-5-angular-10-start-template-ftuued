@@ -12,8 +12,7 @@ export class Tab3Page implements OnInit{
 
   constructor(
     private formBuilder: FormBuilder,
-    private contatoService: ContatoService,
-    public toastController: ToastController
+
   ) {}
 
   ngOnInit() {
