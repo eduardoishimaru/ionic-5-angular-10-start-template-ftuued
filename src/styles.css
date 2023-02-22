@@ -31,26 +31,53 @@
   margin:auto;
   text-align: center;
 }
+ion-card{
+  border-radius: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+ion-card:hover{
+  transform: scale(1.03);
+}
+
 .img-item{
   padding: 20px;
   padding-bottom: 0px;
   width: 100%;
   max-width: 400px;
 
-
+  animation: animation-img-item 4s infinite alternate;
 
 }
 
 ion-thumbnail{
-  animation: animation-img-item 4s infinite alternate;
+  animation: animation-item 4s infinite alternate;
 
 }
-@keyframes animation-img-item{
-  0%{
-  transform: translate(0px, 5px) scale(1) rotate(0deg);
+@keyframes animation-item {
+
+  0% {
+    transform: translate(0px, 5px);
   }
-  100%{
-  transform: translate(0px, -5) scale(0.5) rotate(45deg);
+
+  100% {
+    transform: translate(0px, -5px);
   }
 }
 
+@keyframes animation-img-item {
+
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(1deg) scale(1.02);
+  }
+
+  100% {
+    transform: rotate(-1deg) scale(1.04);
+  }
+}
