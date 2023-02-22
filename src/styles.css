@@ -28,5 +28,10 @@
   margin:auto;
   text-align: center;
 }
-
-
+.img-item{
+  padding: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+  max-width: 400px;
+  
+}
