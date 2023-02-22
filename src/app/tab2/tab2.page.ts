@@ -9,4 +9,7 @@ export class Tab2Page {
 
   constructor() {}
 
+  doarAlimentos(){
+    console.log('Doou alimento');
+  }
 }
