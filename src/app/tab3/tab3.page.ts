@@ -9,7 +9,8 @@ export class Tab3Page {
 
   constructor() {}
   whats(){
-    this.abrirUrl('https://api.whatsapp.com/send?phone=5511963040072&text=Oi%20Tudo%20');
+    this.abrirUrl('https://api.whatsapp.com/send?phone=5511963040072&text=Ol%C3%A1%20vim%20atraves%20do%20seu%20App%20Gostaria%20de%20receber%20doacoes');
+   
   }
 
   abrirUrl(url: string){
