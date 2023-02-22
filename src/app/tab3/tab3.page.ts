@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
 export class Tab3Page {
 
   constructor() {}
+  whats(){
+    this.abrirUrl('https://api.whatsapp.com/send?phone=5511963040072&text=Oi%20Tudo%20');
+  }
 
+  abrirUrl(url: string){
+    window.open(url,"_blank").focus();
+
+  }
 }
