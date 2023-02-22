@@ -19,6 +19,14 @@
     --ion-tab-bar-background: #29065a;
     --ion-tab-bar-color: #44578a;
     --ion-tab-bar-color-selected: #fff100;
+
+    --ion-text-color:white;
+    --ion-text-color-rgb:255,255,255;
+}
+.conteudo{
+  max-width: 500px;
+  margin:auto;
+  text-align: center;
 }
 
 
